@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "http/": "https://deno.land/std@0.130.0/http/",
+    "stripe": "https://deno.land/x/stripe@v12.1.1/mod.ts"
+  }
+} 

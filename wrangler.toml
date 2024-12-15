@@ -1,0 +1,16 @@
+name = "sticker-designer"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "STICKER_BUCKET"
+bucket_name = "sticker-designs"
+preview_bucket_name = "sticker-designs-dev"
+public_access = true
+
+[vars]
+# STRIPE_SECRET_KEY is set via wrangler secret
+
+[build]
+command = "npm run build"
+pages_build_output_dir = "dist"
